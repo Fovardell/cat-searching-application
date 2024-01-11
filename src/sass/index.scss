@@ -1,0 +1,33 @@
+body {
+	margin: 15px;
+}
+.breed-select {
+	margin-bottom: 15px;
+	display: none;
+}
+
+.loader {
+	font-weight: 600;
+	display: none;
+}
+.error {
+	color: red;
+	display: none;
+}
+.cat-container {
+	display: flex;
+}
+.cat-img {
+	width: 100%;
+	height: auto;
+}
+.img-container {
+	max-width: 400px;
+	max-height: 400px;
+}
+.cat-info {
+	margin-left: 15px;
+	&__title {
+		margin: 0;
+	}
+}
